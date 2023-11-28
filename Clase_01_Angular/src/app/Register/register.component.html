@@ -1,0 +1,32 @@
+    <div class="contenedor principal">
+        <div class="titulo">
+            <h1>Registro</h1>
+        </div>
+        <div class="formulario-contenedor">
+                <div class="usuario_form">
+                    <label for="">Nombre</label>
+                    <input type="text" name="usuario" id="usuario" class="input_usuario" required [(ngModel)]="nombreUsuarioRegistro">
+                </div>
+
+
+                <div class="correo_form">
+                    <label for="">Correo electronico</label>
+                    <input type="email" name="correo" id="correo" class="input_correo" required [(ngModel)]="correoRegistro">
+                </div>
+
+
+                <div class="contrasena_form">
+                    <label for="">Contraseña</label>
+                    <input type="password" name="contrasena" id="contrasena" class="input_contrasena" required [(ngModel)]="contrasenaUsuarioRegistro">
+                </div>
+
+
+                <div class="botones">
+                    <button (click)="enviarDatosRegistro()" class="registro">Registrarse</button>
+                </div>
+
+                <div id="mensajeRegistro">{{ mensajeRegistro }}</div>
+
+        </div>
+    </div>
+

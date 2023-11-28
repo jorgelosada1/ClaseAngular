@@ -1,0 +1,99 @@
+
+
+
+
+.titulo {
+    text-align: center;
+    color: #2d2e2b;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario-contenedor {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    justify-content: center;
+    margin-left: 470px;
+}
+
+
+
+.usuario_form,
+.contrasena_form {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2d2e2b;
+    font-size: 16px; /* Tamaño de la fuente aumentado */
+}
+
+.input_usuario,
+.input_contrasena {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 2px solid #2d2e2b;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+.inicio {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #2d2e2b;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.inicio:hover {
+    background-color: #2d2e2b;
+}
+
+.opciones{
+    margin-top: 8px;
+    text-align: center;
+
+}
+
+.botonRedireccionRegistro,
+.botonRedireccionRecuperacion {
+  background: none;
+  border: none;
+  color: #2d2e2b; /* Puedes ajustar el color según tus preferencias */
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 11px;
+}
+
+#mensajeInicioSesion{
+    margin-top: 20px;
+    text-align: center;
+    color: #2d2e2b;
+}
+.usuario_form{
+    color: rgb(54, 59, 54);
+}
+.contrasena_form{
+    color:rgb(54, 59, 54);
+}
+h1{
+    margin-right: 90px;
+}
